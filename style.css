@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+.first-div{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+.first-h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: black;
+}
+
+form > *:first-child {
+    margin-top: 0;
+}
+form > *:last-child {
+    margin-bottom: 0;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    margin-top:4% ;
+    padding: 0.7rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: ipx solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    font: 500 1rem 'Quicksand', sans-serif;
+    
+}
+.btn-class{
+   text-align: center;
+   margin-top: 25px;
+}
+.btn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font: 500 1rem 'Quicksand', sans-serif;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+input[type=button]:hover{
+    opacity: 1;
+}
+input[type=button]:active{
+    transform: scale(0.98);
+}
+.message1{
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+.message2{
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+.charMsg{
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+.second-div {
+    text-align: center; 
+    margin-top: 10px; 
+}
+p{
+    font-size: 12px;
+    font-weight:bold ;
+
+}
+.third {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+h6{
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+}
+a{
+    color: black;
+}
+.div{
+    text-align: center;
+    display: none;
+}
+h2{
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+
+}
+p{
+    text-transform: uppercase;
+    color:black;
+    font-family: sans-serif;
+    
+}
+@media(max-width: 900px){
+    body {
+        background-image: url("pic1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+        justify-content: center;
+    }
+    .display {
+        display: block;
+        margin-bottom: 10%;
+        padding: 5%;
+        width: 80%;
+        max-width: 1000px;
+        margin: 0;
+        margin-top: 5%;
+        margin: 0 auto;
+
+    }
+    .formDiv{
+        background-color: white;
+        padding: 5%;
+        width: 100%;
+        max-width: 1000px;
+        margin: 0;
+        margin-top: 5%;
+        margin: 0 auto;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    }
+    .first-h1{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: black;
+    }
+}
+@media(min-width: 901px){
+   body {
+        background-image: url("pic1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 4px;
+    
+        margin: 0;
+        height: 100vh;
+        align-items: center;
+        justify-items: center;
+    }
+    .display1 {
+        display: flex;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .formDiv{
+        background-color: white;
+        padding: 5%;
+        width: 50%;
+        max-width: 50%;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        margin-right: 5%;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    }
+    .first-h1{
+        font-size: 100px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: black;
+    }
+}
+
+.form-control[data-state="invalid"]{
+    border-color: hsl(0, 76%, 50%);
+}
+.form-control[data-state="valid"]{
+    border-color: hsl(120, 76%, 50%);
+}
