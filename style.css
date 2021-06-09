@@ -173,6 +173,7 @@ p{
         margin-top: 5%;
         margin-bottom: 15%;
         margin-right: 5%;
+        height: 100vh;
         box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     }
     .first-h1{
